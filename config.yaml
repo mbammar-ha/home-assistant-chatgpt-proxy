@@ -1,0 +1,16 @@
+name: "ChatGPT Proxy"
+version: "1.0.0"
+slug: "chatgpt_proxy"
+description: "A simple local ChatGPT proxy for secure API access."
+arch:
+  - amd64
+  - armv7
+  - aarch64
+startup: services
+boot: auto
+homeassistant_api: false
+options: {}
+schema: {}
+ports:
+  7860/tcp: 7860
+image: "local/chatgpt-proxy"
