@@ -13,4 +13,3 @@ options: {}
 schema: {}
 ports:
   7860/tcp: 7860
-image: "local/chatgpt-proxy"
